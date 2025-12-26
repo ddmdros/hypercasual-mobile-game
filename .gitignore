@@ -1,0 +1,22 @@
+# Pastas temporárias e geradas (NUNCA enviar para o Git)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Builds]/
+/[Ll]ogs/
+/[UserSettings]/
+
+# Ficheiros de solução do Visual Studio
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.sublime-project
+*.sublime-workspace
+
+# Ficheiros do SO
+.DS_Store
+Thumbs.db
