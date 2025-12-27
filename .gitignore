@@ -20,3 +20,5 @@
 # Ficheiros do SO
 .DS_Store
 Thumbs.db
+
+.vs/
