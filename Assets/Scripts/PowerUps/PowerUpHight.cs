@@ -11,12 +11,16 @@ public class PowerUpHight : PowerUpBase
     {
         base.StartPowerUp();
         PlayerController.Instance.ChangeHeight(amountHight, duration, animationDuration, ease);
+        PlayerController.Instance.SetPowerUpText("Jump");
+
     }
 
     protected override void EndPowerUp()
     {
         base.EndPowerUp();
         PlayerController.Instance.ResetHight(animationDuration);
+        PlayerController.Instance.SetPowerUpText("");
+
     }
 
 }
